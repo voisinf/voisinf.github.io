@@ -437,6 +437,13 @@ hr.ruby-light-black:after,
 #services hr.ruby-light-black:after {
     background-color: #FFF;
 }
+#the_hand_craft {
+    background:url(/img/the_hand_craft.jpg) no-repeat;
+    background-size: cover;
+    height: 610px;
+    width: 100%;
+    margin-top: 50px;
+}
 
 ul.brands img {
     margin-top: 5px;
