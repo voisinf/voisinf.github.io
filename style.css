@@ -207,7 +207,7 @@ header .intro-text .skills {
 .badge.sys   { background-color: #378caf }
 
 a.navbar-brand {
-    width: 350px;
+    width: 280px;
 }
 .navbar .container {
     background-color: #FFFFFF;
@@ -263,12 +263,12 @@ a.navbar-brand {
         margin-top: -1px;
     }
     a.navbar-brand {
-        width: 370px;
+        width: 280px;
         padding-right: 0;
         font-size: 36px;
     }
     .fr a.navbar-brand {
-        width: 340px;
+        width: 280px;
     }
 }
 
@@ -439,10 +439,10 @@ hr.ruby-light-black:after,
 }
 #the_hand_craft {
     background:url(/img/the_hand_craft.jpg) no-repeat;
-    background-size: cover;
     height: 610px;
     width: 100%;
     margin-top: 50px;
+    background-size: contain;
 }
 
 ul.brands img {
@@ -452,6 +452,16 @@ ul.brands img {
 ul.brands .bigger img {
     margin-top: 0;
     height: 50px !important;
+}
+ul.brands .tinier img {
+    margin-top: 10px;
+    height: 30px !important;
+}
+ul.brands .alcaria img {
+    margin-top: 7px;
+}
+.navbar li a {
+    padding: 4px;
 }
 #added_value i + i {
     color: #e74c3c;
