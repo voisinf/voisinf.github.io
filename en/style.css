@@ -233,6 +233,9 @@ a.navbar-brand {
     .navbar-fixed-top.navbar-shrink .navbar-brand {
         padding-top: 1.6em;
     }
+    body ul.brands li {
+        float: none !important;
+    }
 }
 @media(min-width:1025px) {
     .navbar-fixed-top {
@@ -464,6 +467,12 @@ ul.brands .tinier img {
 }
 ul.brands .alcaria img {
     margin-top: 7px;
+}
+ul.brands li {
+    float: right !important;
+}
+ul.brands li.carriage-return {
+    clear: right;
 }
 .navbar li a {
     padding: 4px;
